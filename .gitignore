@@ -1,0 +1,65 @@
+## Build results
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]uild[Oo]utput/
+publish/
+publish[\\/]*/
+
+## Visual Studio
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.userprefs
+*.DotSettings.user
+*.aps
+*.ncb
+*.opensdf
+*.sdf
+*.cachefile
+*.VC.db
+*.VC.opendb
+
+## .NET / NuGet
+*.nupkg
+*.snupkg
+project.assets.json
+project.nuget.cache
+*.nuget.props
+*.nuget.targets
+packages/
+!packages/build/
+project.lock.json
+packages.lock.json
+artifacts/
+[Cc]ontent[Oo]bjects/
+[Tt]est[Rr]esult*/
+*.trx
+*.coverage
+*.coveragexml
+coverage*.json
+coverage*.xml
+coverage*.info
+
+## Logs
+*.binlog
+*.log
+logs/
+msbuild.log
+
+## OS / editor cruft
+.DS_Store
+Thumbs.db
+desktop.ini
+*~
+*.swp
